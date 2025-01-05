@@ -35,7 +35,7 @@ export default function ChatBox() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          model: "deepseek-ai/DeepSeek-V2-Chat",
+          model: "Qwen/Qwen2.5-7B-Instruct",
           messages: [
             {
               role: "system",
